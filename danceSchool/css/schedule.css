@@ -1,0 +1,55 @@
+main {
+	margin-top: 150px;
+}
+
+main h1{
+	text-align: left;
+	width: 90%;
+	margin: 30px 5%;
+}
+main h2,
+main h3 {
+	text-align: center;
+	margin: 30px 0;
+}
+h3 > span {
+	font-size: 0.9em;
+}
+
+main div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px dotted white;
+}
+
+.table {
+    display: table;
+    padding:0;
+	width: 100%;
+	background-color: rgba(204, 204, 204, 0.2);
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+    display: table-row;
+
+}
+
+.cell {
+	width: 33.33%;
+    display: table-cell;
+	text-align: center;
+    border-color: #f74343;
+	border-top: none;
+	border-right:none;
+	border-left:none;
+	line-height: 30px;
+}
+
+.table > h3 {
+	display: block;
+	width: 90%;
+	margin: 30px 3%;
+	text-align: center;
+}

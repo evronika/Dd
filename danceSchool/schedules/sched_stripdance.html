@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Расписание | DarinaDance</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/all.css"  media="screen">
+		<link rel="stylesheet" href="../css/styles.css" media="screen">
+		<link rel="stylesheet" href="../css/mediaimg.css" media="screen">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link rel="shortcut icon" href="../images/main/favicon.ico" type="image/x-icon">
+    </head>
+	<body class="title">	
+		<script>
+		function op() {
+			var div = document.getElementsByTagName("div")[2];
+			div.classList.toggle("addCl");
+			div.classList.toggle("menu");
+		}
+		function sched(x) {
+			var but = document.getElementsByTagName("button");
+			var main = document.getElementsByTagName("main");
+			if (x==0) {
+				but[x].classList.toggle("active1");
+				but[x+1].classList.toggle("active1");
+				main[0].classList.toggle("none");
+				main[1].classList.toggle("none");
+			}
+			if (x==1) {
+				but[x].classList.toggle("active1");
+				but[x-1].classList.toggle("active1");
+				main[0].classList.toggle("none");
+				main[1].classList.toggle("none");
+			}
+		}
+		</script>
+	<header>
+			<div class="content">
+				<div class="logo">
+					<a href="index.html"><img src="../images/main/logo.png"/></a>
+				</div>
+				<ul class="button" onclick="op()">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+				</ul>
+				<div class="menu">
+					<ul>
+						<li><a href="../main/styles.html">Направления</a></li>
+						<li><a href="../main/news.html">Новости</a></li>
+						<li><a href="../main/schedule.html">Расписание</a></li>
+						<li><a href="../main/price.html">Цены</a></li>
+						<li><a href="../main/teachers.html">Преподаватели</a></li>
+						<li><a href="../main/contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="contacts navfont">
+					+375 33 620 72 02<br>+375 44 719 65 67
+				</div>
+			</div>
+		</header>
+		<div><h1>Расписание</h1></div>
+		<h2>Женская стрип-пластика</h2>
+<!--	<aside>
+			<div><button class="active1" onclick="sched(0)">г. Минск</button></div>
+			<div><button onclick="sched(1)">г. Жодино</button></div>
+		</aside>  -->
+<main>
+			<div class="table">
+<!--				<h3>Вторник </h3>  -->
+				<div class="row">
+					<div class="cell desc">Ведутся наборы на все направления. Расписание корректируется. </div>
+					
+				</div>
+			</div>
+			<!--		<div class="cell desc">Алина Мазур</div>
+				</div>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+			</div>
+			<div class="table">
+				<h3>Четверг </h3>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+			</div>
+			<div class="table">
+				<h3>Пятница </h3>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell">Алина Мазур</div>
+				</div>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+			</div>	
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.4964101068545!2d27.62040671558795!3d53.869602280092025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbce1cdc01ce17%3A0x95da7ca4cf2ade99!2z0YPQu9C40YbQsCDQotGD0YXQsNGH0LXQstGB0LrQvtCz0L4gOSwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1481724294411" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		</main>
+		</main>
+		<main class="none">
+			<div class="table">
+				<h3>Бальный танец</h3>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+			</div>
+			<div class="table">
+				<h3>Среда</h3>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+				<div class="row">
+					<div class="cell desc">10:00-11:00</div>
+					<div class="cell desc">Алина Мазур</div>
+				</div>
+			</div>  -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.4964101068545!2d27.62040671558795!3d53.869602280092025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbce1cdc01ce17%3A0x95da7ca4cf2ade99!2z0YPQu9C40YbQsCDQotGD0YXQsNGH0LXQstGB0LrQvtCz0L4gOSwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1481724294411" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</main>
+		<footer class="nfooter">
+			<div class="footer1">
+				<span>&copy DarinaDance, 2016</span>  <span>+375 33 620 72 02</span><span> +375 44 719 65 67</span>
+			</div>
+			<div class="footer2">
+				<a class="facebook" href="https://www.facebook.com/groups/darinadance" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+				<a class="vk" href="https://vk.com/darina__dance" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+				<a class="vk" href="https://www.instagram.com/darina__dance" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				<a class="twitter" href="https://twitter.com/darina__dance" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+			</div>
+		</footer>
+	</body>
+</html>

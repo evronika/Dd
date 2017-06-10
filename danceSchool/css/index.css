@@ -1,0 +1,137 @@
+body {
+	position: relative;
+}
+
+img[alt="фон"] {
+	 width: 100%;
+	 margin-top: 30px;
+}
+
+main>div {
+	width: 33.333333333%;
+	float:left;
+	position: relative;
+}
+
+main div  {
+	-webkit-animation-duration: 200ms;
+	-moz-animation-duration: 200ms;
+	animation-duration: 200ms;
+}
+
+main > h1 {
+	font-size: 1.35em;
+	
+}
+
+main h3 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 1.35em;
+	margin-left:0;
+	
+}
+main h3.desc {
+	font-size: 1.5rem;
+}
+main div img{
+	width: 94%;
+	margin: 5% 3%;
+	height: 250px;
+	min-width: 250px;
+	filter: grayscale(1);
+	-khtml-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	position: relative;
+	max-height: 200px;
+	display: block;
+}
+
+main div img:hover {
+	filter: grayscale(0);
+}
+
+
+main div a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.2em;
+
+}
+
+
+.opacity {
+	opacity:1;
+}
+
+main h1 {
+	margin:0;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.active1 {
+	display: block;
+}
+
+main:after {
+	content: " ";
+    clear: both;
+    display: table;
+	
+}
+
+
+/* медиа-запросы */
+
+
+	
+@media all and (max-width: 1280px) {
+	main img[alt="фон"] {
+		margin-top: 75px;
+	}
+
+
+}
+
+@media all and (max-width: 1024px) {
+
+	main div {
+		width: 50%;	
+	}
+	main div img {
+		width: 65%;
+		margin: 5% auto;
+
+	}
+	
+}
+
+
+
+@media all and (max-width: 680px) {
+	main div {
+		width: 100%;
+		text-align: center;	
+	}
+	main div img {
+		width: 50%;
+	}
+	main div a {
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 500px) {
+	main div img{
+		max-height: 200px;
+		margin: 11% auto;
+		margin-bottom:0;
+
+	}
+}
+

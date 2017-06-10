@@ -1,0 +1,94 @@
+header~div {
+	margin-top: 150px;
+}
+
+header~div  h1 {
+	width: 90%;
+	margin: 2% 5%;
+
+}
+
+main {
+	width: 100%;
+}
+
+main > h3 {
+	width: 100%;
+	margin: 2% 0;
+	text-indent: 5%;
+}
+
+
+main > h3:nth-child(n+2) {
+	margin-top:0;
+}
+
+
+
+main div {
+	width: 100%;
+	margin: 0;
+	line-height: 200%;
+	text-indent: 5%;
+	color: black;
+	
+}
+
+main div:not(.desc) {
+	text-align: center;
+}
+
+main>div>span{
+	display: block;
+	text-indent: 5%;
+}
+
+main > ul {
+	width: 90%;
+	margin: 1.5% 5%;
+	margin-top:0;
+	font-size: 1rem LatoLight;
+}
+
+main > ul > li {
+	font: 0.95rem LatoLight;
+
+}
+
+.noindent {
+	text-indent: 0;
+	width: 100%;
+	margin: 3% auto;
+}
+
+
+.noindent img {
+	width: 70%;
+	margin: auto 15%;
+}
+
+.styleimg {
+	width: 100%;
+}
+
+
+main img {
+	margin: 3% auto;
+}
+main div p {
+	margin: 0 5%;
+	width: 90%;
+	text-indent: 5%;
+	line-height: 30px;
+
+}
+
+footer {
+	clear: both;
+}
+@media all and (max-width: 640px) {
+
+	main div img {
+		display: block;
+	}
+}

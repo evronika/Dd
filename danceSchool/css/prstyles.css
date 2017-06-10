@@ -1,0 +1,51 @@
+header~div {
+	width: 90%;
+	margin: 0 5%;
+}
+
+body > div {
+	margin-top:150px;
+}
+
+body>h2 {
+	width: 90%;
+	margin: 3% 5%;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.table {
+    display: table;
+    padding:0;
+	width: 100%;
+	background-color: rgba(204, 204, 204, 0.2);
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+    display: table-row;
+}
+.row:nth-child(2n) {
+	background-color: white;
+}
+.cell {
+	width: 50%;
+    display: table-cell;
+	text-align: center;
+    border-color: #f74343;
+	border-top: none;
+	border-right:none;
+	border-left:none;
+	line-height: 40px;
+}
+
+
+@media all and (max-width: 680px) {
+	.cell {
+	line-height: 25px;
+	}
+	
+}

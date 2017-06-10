@@ -1,0 +1,222 @@
+
+main img[alt="фон"] {
+	width: 100%;
+}
+
+header~div {
+	margin-top: 150px;
+}
+
+header~div  h1 {
+	width: 90%;
+	margin: 2% 5%;
+}
+
+main div {
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+
+main div  {
+	-webkit-animation-duration: 10000ms;
+	-moz-animation-duration: 200ms;
+	animation-duration: 200ms;
+}
+
+main h3 {
+	width:100%;
+	margin: 0;
+	text-indent: 5%;
+}
+
+main div img{
+	display: block;
+	width: 94%;
+	margin: 5% 3%;
+	height: 300px;
+	min-width: 250px;
+	filter: grayscale(1);
+	position: relative;
+}
+
+main div img:hover {
+	filter: grayscale(0);
+}
+
+
+main div:nth-of-type(3n+1) img {
+	margin-left:0;
+}
+
+main div:nth-of-type(3n) img {
+	margin: 5% 6%;
+	margin-right:0;
+	
+}
+
+main div a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.2em;
+
+}
+
+
+.opacity {
+	opacity:1;
+}
+
+main h1 {
+	margin: 4% 0;
+	text-align: left;
+}
+
+.active1 {
+	display: block;
+}
+
+main:after {
+	content: " ";
+    clear: both;
+    display: table;
+	
+}
+main img[alt="фон"] {
+	width: 100%;
+}
+
+main div {
+	width: 33.33%;
+	float:left;
+	position: relative;
+}
+
+main div  {
+	-webkit-animation-duration: 10000ms;
+	-moz-animation-duration: 200ms;
+	animation-duration: 200ms;
+}
+
+
+main div img{
+
+	width: 94%;
+	margin: 5% 3%;
+	height: 300px;
+	min-width: 250px;
+	filter: grayscale(1);
+	-khtml-opacity: 0.8;
+	position: relative;
+}
+
+main div img:hover {
+	filter: grayscale(0);
+}
+
+
+
+main div a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	padding: 5% 0;
+}
+
+
+.opacity {
+	opacity:1;
+}
+
+main h1 {
+	margin: 4% 0;
+}
+
+.active1 {
+	display: block;
+}
+
+main:after {
+	content: " ";
+    clear: both;
+    display: table;
+	
+}
+
+
+main {
+	clear: both;
+}
+
+@media all and (max-width: 1024px) {
+
+	main div {
+	width: 50%;	
+	}
+	
+
+main div:nth-of-type(1n+2) img {
+	margin-left:0;
+	margin-right:0;
+}
+
+main div:nth-of-type(2n) img {
+
+	margin-right:0;
+	margin-left:0;
+	
+}
+	
+}
+
+
+
+@media all and (max-width: 680px) {
+	main h3 {
+	width:100%;
+	margin: 0 auto;
+	text-indent:5%;
+	}
+	main div {
+	width: 100%;	
+	}
+main div:nth-of-type(1n+2) img {
+	margin-bottom:0;
+	margin: 0 auto;
+}
+
+main div:nth-of-type(2n) img {
+	margin-bottom:0;
+	margin: 0 auto;
+}
+	main div:nth-of-type(3n+1) img {
+    margin: 0 auto;
+	margin-left: auto;
+}
+}
+
+@media all and (max-width: 500px) {
+
+main div img{
+	min-width: 200px;
+	max-height: 200px;
+	margin: 0 auto;
+}
+	main img[alt="фон"] {
+		display: none;
+	}
+	main {
+		margin-top: 40px;
+	}
+	main div:nth-of-type(3n) img {
+		margin: 0 auto;
+	}
+}
+
+
+
+

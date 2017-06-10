@@ -1,0 +1,91 @@
+header~div{
+	margin-top: 150px;
+	width: 100%;
+}
+header~div  h1 {
+	width: 90%;
+	margin: 2% 5%;
+}
+main {
+	margin:  0;
+	width: 100%;
+	font-size : 0;
+}
+
+main p {
+	text-align: center;
+	display: block;
+}
+
+main div img {
+	margin: 5% 5%;
+	width: 90%;
+	height: 300px;
+}
+
+main div {
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	
+}
+
+div.b1 {
+	
+}
+
+main div {
+	width: 25%;
+	margin:  0;
+	float:left;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+main div a span {
+	position	: absolute;
+	text-align: center;
+	line-height: 300px;
+	left		: 0;
+	width		: 100%;
+	height: 100%;
+	color: #f74343;
+	font-size: 24px;
+	opacity: 0;
+}
+
+main div span {
+	color			: white;
+	font			: bold 0.9em/45px ;
+	letter-spacing	: -1px;
+	padding			: 10px;
+}
+
+.opacity {
+	opacity: 1;
+} 
+
+.d1 {
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+}
+
+main div:hover img {
+	opacity: 1;
+}
+
+main {
+	clear: both;
+}
+
+main:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+footer {
+	margin: 150px 0;
+}

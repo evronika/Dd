@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+}
+
+html {
+	width: 100%;
+}
+
+@font-face {
+	font-family: "LatoLight";
+    src: url("../fonts//LatoLight.eot");
+    src: url("../fonts/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoLight.woff") format("woff"),
+    url("../fonts/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+	font-family: afuturicabs_light;
+	 src: url(../fonts/afuturicabs_light.ttf),
+    url(../fonts/afuturicabs_light.woff) format('woff'),
+	url(../fonts/afuturicabs_light.woff2) format('woff2'),
+    url(../fonts/afuturicabs_light.svg) format('svg'),
+	url(../fonts/afuturicabs_light.eot);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: myriadpro-black;
+	src: url(../fonts/myriadpro-black.ttf),
+	url(../fonts/myriadpro-black.woff) format('woff'),
+	url(../fonts/myriadpro-black.woff2) format('woff2'),
+	url(../fonts/myriadpro-black.svg) format('svg'),
+	url(../fonts/myriadpro-black.eot);
+
+}
+
+.navfont {
+	font-family: afuturicabs_light;
+}
+.title {
+	font-family: myriadpro-black;
+}
+.nfooter {
+	font-family: myriadpro-black;
+}
+.desc {
+	font: 1.2rem 'Calibri Light';
+}
+
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 0.9rem;
+}
+
+/* header */
+
+header {
+	position: fixed;
+	z-index: 2;
+	padding: 0;
+	top:  0;
+	background-color: white;
+	width: 80%;
+	max-width: 1600px;
+}
+
+header a {
+    font-weight: 600;
+    font-family: afuturicabs_light;
+    font-size: 1.2rem;
+	text-decoration: none; 
+	
+}
+.content {
+    width: 100%;
+    margin: 0;
+}
+ 
+header .content div:first-child {
+    text-align: center;
+    width: 10%;
+}
+.content div, header .content div {
+    display: inline-block;
+    vertical-align: top;
+     text-align: center;
+}
+
+header .content div.menu {
+    width: 68%;
+    margin-left: 5%;
+}
+
+header .content div.contacts {
+    margin-top: 1.4rem;
+	width:15%;
+    line-height: 1.5em;
+	font-size: 1.15em;
+	text-align: right;
+	font-style: normal;
+	right: 0;
+	min-width: 150px;
+}
+
+header div.content .button {
+    width: 70px;
+    max-height: 59px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 9;
+}
+
+header .button li {
+    width: 24px;
+    height: 4px;
+    margin: 5px auto 0;
+    display: block;
+    background-color: #000;
+}
+
+}
+
+div.logo,
+div.contacts {
+	padding: 20px 0;
+}
+
+div.logo {
+	width:5%;
+}
+	
+
+div.logo img {
+	margin-top: 1%;	
+	min-width: 120px;
+	width: 120px;
+	height: 80px;
+}
+
+div.contacts {
+	text-align: right;
+}
+
+ a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+.active2 {
+	border-bottom: 2px solid #f74343;
+}
+header .menu ul {
+	width: 100%;
+}
+header .menu ul li {
+    display: inline-block;
+    margin: 4% 4px;
+	color: white;
+	list-style: none;
+	padding: 10px 0;
+	width: 14% ;
+	
+}
+.buttonnon {
+	display: none;
+}
+.buttonhoverul {
+	position: relative;
+	right:0;
+}
+
+.buttonhoverli {
+	display: inline-block;
+	padding: 35px 0;
+}
+
+.menu li a.active {
+    text-decoration: none;
+}
+
+a, header a, p a {
+    color: black;
+	text-decoration: none;
+}
+
+footer .content div, header .content div, header .content ul {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+header .content ul {
+	position: relative;
+	right: 0;
+	width: 100%;
+}
+
+img[alt="фон"] {
+	z-index:0;
+}
+
+/* main */
+
+
+/* footer */
+footer {
+	width: 100%;
+	font-size: 1em;
+	margin: 100px 0;
+	-o-margin: 100px 0;
+	-ms-margin: 100px 0;
+	color: black;
+	background-color: white;
+	clear:both;
+}
+div.footer1 {
+	width: 60%;
+	right: 0;
+	float:left;
+	position: relative;
+	text-align: left;
+}
+
+div.footer1 span{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+div.footer2 {
+	width: 40%;
+	float:left;
+	right: 0;
+	position: relative;
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+div.footer2 a {
+	height: 30px;
+	width: 30px;
+	margin-left: 1%;
+	display: inline-block;
+	color: black;
+	position: relative;
+}
+div.footer2 img[src="images/in.png"]{
+	position: absolute;
+	left: 4px;
+}
+
+
+div.footer2 a:hover {
+	  color: #f74343;
+}
+
+
+.addCl{
+	display: block;
+	width:100%;
+}
+.none {
+	display: none;
+}
+/* Медиа-запросы */
+
+/* навигация */
+@media all and (max-width: 1350px) {
+header .content div.menu {
+	width: 67%;
+	padding-left:0;
+}
+
+
+
+@media all and (max-width: 1450px) {
+	header .content div.contacts {
+		width: 16%;
+	}
+}
+
+
+@media all and (max-width: 1250px) {
+	header .content div.contacts {
+		width: 15.5%;
+	}
+	header div.content .button {
+		display: inline-block;
+		width: 10%;
+		position: relative;
+		left: 0;
+		
+	}
+	header .addCl{
+		background-color:rgb(235, 235, 235);
+	}
+	header div.contacts,
+	header div.menu	{
+		display: none;
+
+	} 
+	
+	header div.addCl ul li {
+		list-style:none;	
+		padding: 2px;		
+	}
+	
+	header .content div.logo {
+		width: 89%;
+		text-align: left;
+	}
+}
+	
+
+
+@media all and (max-width: 1100px) {
+	footer div.footer1 {
+		width: 70%;
+	}
+	footer div.footer2 {
+		width: 30%;
+	}
+	
+	footer div.footer1 span {
+		margin-right: 20px;
+		font-size: 0.9rem;
+	}
+	div.logo img {
+
+		width: 99px;
+		height: 66px;
+	}
+}
+
+@media all and (max-width: 680px) {
+footer {
+	margin-bottom: 0;
+}
+footer div.footer1,
+footer div.footer2 {
+	width: 100%;
+	text-align: center;
+}
+
+div.footer1 span {
+	margin: 0;
+}
+
+div.logo img {
+	margin-top: 3%;	
+	width: 87px;
+	height: 58px;
+}
+
+footer .footer2 a i{
+	font-size: 1.3em;
+}
+
+.footer2 a{
+	margin: 10px auto;
+}
+}
+@media all and (max-width: 400px) {
+
+header .content div.logo {
+	width: 85%;
+	
+}
+}

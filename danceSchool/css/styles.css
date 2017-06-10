@@ -1,0 +1,107 @@
+header~div {
+	width: 90%;
+	margin: 0 5%;
+}
+
+body > div {
+	margin-top:150px;
+}
+
+body>h2 {
+	width: 90%;
+	margin: 3% 5%;
+	margin-bottom: 5%;
+}
+
+aside {
+	width: 100%;
+}
+
+aside > div {
+	width: 47.5%;
+	display: inline-block;
+	margin: 0;
+}
+
+aside > div button {
+	padding: 1%;
+	font-family: myriadpro-black;
+	border: 2px solid black;
+	border-radius: 3%;
+	background-color: white;
+	color: black;
+}
+
+aside > div:first-child {
+	text-align: right;
+
+}
+aside > div:last-child {
+	text-align: left;
+}
+main {
+	margin-top: 25px;
+}
+
+.table {
+    display: table;
+    padding:0;
+	width: 100%;
+	background-color: rgba(204, 204, 204, 0.2);
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+    display: table-row;
+
+}
+
+.cell {
+	width: 50%;
+    display: table-cell;
+	text-align: center;
+    border-color: #f74343;
+	background-color: white;
+	border-top: none;
+	border-right:none;
+	border-left:none;
+	line-height: 30px;
+}
+
+
+
+.table > h3 {
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+iframe {
+	margin: 2% 0;
+	width: 100%;
+}
+
+
+.active1 {
+	background-color: black;
+	color: white;
+}
+
+@media all and (max-width: 640px) {
+	aside > div {
+		margin: 5% 0;
+}
+}
+
+@media all and (max-width: 480px) {
+	aside > div {
+		margin: 10% 0;
+}
+
+@media al and (max-width: 320px) {
+	aside > div {
+		margin: 20% 0;
+}
+

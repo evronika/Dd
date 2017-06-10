@@ -1,0 +1,135 @@
+
+header~div{
+	margin-top: 150px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+header~div  h1 {
+	width: 90%;
+	margin: 2% 5%;
+}
+main {
+	margin:  0;
+	width: 39%;
+	display: inline-block;
+	font-size: 1em;
+
+}
+
+
+main div {
+		max-height: 500px;
+		margin: 4% auto;
+		margin-top:0;
+		padding: 0;
+		text-align: left;
+}
+
+main div img {
+	width: 100%;
+	filter: grayscale(1);
+	height: 170px;
+}
+
+ main div img:hover {
+	 filter: grayscale(0);
+ }
+main div > a {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.9rem;
+}
+
+main div > a:last-child {
+	width: 48%;
+	padding: 0 0 0 2%;
+}
+aside {
+	width: 100%;
+	text-align: center;
+}
+
+/*
+aside {
+	vertical-align: top;
+	width: 56%;
+	margin: 0 auto;
+	display: inline-block;
+	column-count: 1;
+	position: relative;
+	padding: 0 2%;
+	 
+ }
+*/
+ 
+aside > div {
+	width: 98%;
+	padding: 0 0 0 2%;
+	display: block;
+	margin-bottom: 10%;
+	font-size: 0.9rem;
+}
+
+ aside div > span {
+	 font-family:myriadpro-black;
+ }
+
+aside a img {
+	 width: 100%;
+	 max-width: 900px;
+	 max-height: 550px;
+	 margin:0 auto;
+	 filter: grayscale(1);
+ }
+ 
+ aside a img:hover {
+	 filter: grayscale(0);
+ }
+
+
+@media all and (max-width: 1024px) {
+		aside {
+			width: 100%;
+			padding: 0;
+		}
+		main {
+			width: 100%;
+			padding : 0;
+		}
+		header div.addCl {
+			width: 100%;
+		}
+		main div a:last-child {
+			display: inline-block;
+			width: 48%;
+			padding: 0 0 0 2%;
+		}
+}
+
+@media all and (max-width: 640px) {
+	aside a {
+		column-count: 1;
+		margin-bottom:20%;
+	}
+	main div a {
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	main div a:last-child {
+			display: inline-block;
+			width: 98%;
+			padding: 0 0 0 2%;
+		}
+	main div {
+		width: 100%;
+		margin: 20% 0;
+		column-count: 1;
+		float:none;
+	}
+	aside > div {
+		margin-bottom: 0;
+
+}
+}

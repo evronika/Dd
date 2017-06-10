@@ -1,0 +1,94 @@
+
+header~div {
+	margin-top: 150px;
+}
+
+header~div  h1 {
+	width: 90%;
+	margin: 2% 5%;
+}
+
+main div {
+	width: 50%;
+	margin: 0;
+	margin: 100px 0; 
+	max-height: 180px;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	font-style: normal;
+}
+
+main aside a > img {
+	width:100%;
+	margin-bottom: 50px;
+	border-radius : 50%;
+	max-width: 250px;
+	height: 250px;
+	filter: grayscale(1);
+}
+
+main aside a > img:hover {
+	filter: grayscale(0);
+}
+
+main aside {
+	width: 30%;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+	padding-top: 50px;
+}
+main div span {
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 1% 0;
+}
+
+@media all and (max-width: 1280px) {
+	main aside {
+		width: 30%;
+	}
+	
+	main div {
+		width: 67%;
+		margin: 70px 0;
+		padding-left: 2%;
+	}
+	
+}
+
+@media all and (max-width: 900px) and (min-width: 641px) {
+	main aside {
+		width: 40%;
+	}
+	
+	main div {
+		padding-left: 2%;
+		width: 57%;
+		margin: 70px 0;
+	}
+}
+
+@media all and (max-width: 640px) {
+	main aside {
+		width: 100%;
+	}
+	
+	main > div {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		text-indent: 5%;
+	}
+	main div span {
+		display: block;
+		text-align:center;
+		width: 100%;
+	}
+	
+	main aside img {
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,78 @@
+header~div {
+	width: 90%;
+	margin: 0 5%;
+	margin-bottom: 2%;
+}
+
+body > div {
+	margin-top:150px;
+	margin-bottom: 50px;
+}
+
+body>h2,
+main div {
+	width: 90%;
+	margin: 3% 5%;
+	margin-top: 0;
+}
+
+main > div ,
+main > aside {
+	width: 44%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+main aside iframe {
+	width: 100%;
+}
+
+aside {
+	width: 100%;
+	margin: 0;
+	
+}
+
+aside > div {
+	width: 100%;
+	display: block;
+	margin: 2.5% auto;
+	text-align: center;
+}
+
+aside > div button {
+	padding: 1%;
+	border: 2px solid black;
+	border-radius: 3%;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.active1 {
+	background-color: black;
+	color: white;
+}
+
+
+@media all and (max-width: 840px) {
+	main > div ,
+	main > aside  {
+		width: 100%;
+	}
+	aside > div {
+		margin: 8% auto;
+	}
+
+}
+
+@media all and (max-width: 640px) {
+	aside > div {
+		margin: 15% auto;
+	}
+	header~div {
+		margin-bottom: 7%;
+	}
+
+
+}
